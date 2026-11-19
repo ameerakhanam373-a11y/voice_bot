@@ -1,0 +1,27 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Academy Agent: Run Streamlit",
+      "type": "shell",
+      "command": "${workspaceFolder}/.venv/Scripts/python.exe",
+      "args": ["-m", "streamlit", "run", "streamlit_app.py"],
+      "problemMatcher": [],
+      "group": "build"
+    },
+    {
+      "label": "Academy Agent: Index PDFs",
+      "type": "shell",
+      "command": "${workspaceFolder}/.venv/Scripts/python.exe",
+      "args": ["ingest.py"],
+      "problemMatcher": []
+    },
+    {
+      "label": "Academy Agent: Terminal Chat",
+      "type": "shell",
+      "command": "${workspaceFolder}/.venv/Scripts/python.exe",
+      "args": ["main.py", "console"],
+      "problemMatcher": []
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+# Optional Piper backend. The pinned piper-phonemize dependency does not have
+# compatible wheels for every Windows/Python version. pyttsx3 is the default.
+piper-tts==1.2.0

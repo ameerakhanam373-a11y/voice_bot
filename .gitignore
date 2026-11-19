@@ -1,0 +1,13 @@
+.env
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.streamlit/secrets.toml
+qdrant_db/
+models/
+*.wav
+*.mp3
+*.part
+.DS_Store
+Thumbs.db
