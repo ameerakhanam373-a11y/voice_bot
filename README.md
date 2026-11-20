@@ -4,7 +4,8 @@
 
 > **Demo data:** Full Stack Academy is fictional in this repository. The included PDFs and student record are examples created for this project. Replace them with approved material before using this software with real customers. Do not enter real personal, account, or payment details.
 
-##What I built
+## What I built:
+
 Built a voice bot that takes spoken input, processes the request, and responds with synthesized speech. The project connects speech recognition   and text-to-speech into a conversational voice interface.
  
 ## What it does
@@ -125,7 +126,8 @@ For a hosted room service, create a separate development project and follow its 
 
 The assistant is instructed to avoid inventing facts and to escalate real account access, complaints, exceptions, and requests that need a staff decision. The mock account tool is not connected to a real system.
 
-##Project summary
+## Project summary:
+
 This project explores how voice interfaces can make it easier to interact with an AI assistant. It combines speech input, response generation, and spoken output in one application.
 
 ## Repository map
